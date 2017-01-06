@@ -1,0 +1,27 @@
+{
+  "name": "ejemplo-babel",
+  "version": "1.0.0",
+  "description": "Ejemplo con Babel",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexballera/ejemplo-babel.git"
+  },
+  "author": "Alex Ballera <alexballera@gmail.com> (http://alexballera.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexballera/ejemplo-babel/issues"
+  },
+  "homepage": "https://github.com/alexballera/ejemplo-babel#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0"
+  },
+  "dependencies": {
+    "babel-preset-latest": "^6.16.0",
+    "express": "^4.14.0"
+  }
+}
